@@ -31,7 +31,7 @@ public class LinkedListInsertEnd {
         if (head.next == null) { head.next = new Node<>(value); return head; }
         // Recursive:
         head.next = insertAtEnd(head.next, value);
-        return head;// TEMP: replace with your recursive solution
+        return head; // TEMP: replace with your recursive solution
         // The newly added element becomes the tail (end) of the list; the head remains unchanged unless the list was initially empty.
     }
 }
