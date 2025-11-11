@@ -42,7 +42,7 @@ public class BinarySearch {
         int mid = lo + (hi - lo) / 2;
 
         // Base case 2: found at mid
-        if (a[mid]==target)
+        if (a[mid] == target)
             return mid;
 
         if (target < a[mid])
